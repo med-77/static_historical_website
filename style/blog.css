@@ -1,0 +1,138 @@
+header,
+footer {
+    background-color: #e4e4d3;
+}
+body {
+    background-color: white;
+}
+.heading-3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(74, 77, 42);
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+aside{
+  margin-top: 20px;
+}
+  main {
+    
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+  section{
+    padding: 20px;
+    padding-bottom: 0;
+  }
+  h2{
+    font-family:'Oxygen',sans-serif;
+    font-size: 38px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+  }
+  
+  section img{
+    width:100%;
+    height:500px;
+  }
+  article p{
+    font-family: 'Playfair ' ;
+    font-weight: 100;
+    font-size: 20px;
+    word-spacing: 3px;
+    line-height: 30px;
+    text-align: start;
+  }
+  table {
+    color: black;
+    text-align: start;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+  }
+  
+  td,
+  th {
+    padding: 15px;
+    border: 1px solid #29392c;
+  }
+  iframe{
+    width: 100%;
+    height: 500px;
+  }
+  .home-img {
+    width: 100%;
+    height: 600px;
+    
+  }
+  .lists{
+    margin-right: 50px;
+  }
+  .list {
+    background: rgba(0, 0, 0, 0.048);
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .list img {
+    width: 100%;
+  }
+  .list p{
+    font-size: medium;
+    text-align: justify;
+    margin-top: 20px;
+  }
+article{
+    margin-left:100px ;
+    margin-right:50px ;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+h1{
+  font-family:'Oxygen',sans-serif;
+  letter-spacing: 5px;
+  font-size: 60px;
+  background-color: #31471f;
+  color: white;
+  margin-bottom: 10px;
+}
+.usefullink{
+  display: flex;
+  flex-direction: column;
+  font-size:700;
+  align-items: center;
+  line-height: 50px;
+  background-color: rgba(0, 0, 0, 0.048);
+  margin-right: 35px;
+}
+
+  @media (max-width: 950px) {
+    main {
+      grid-template-columns: 1fr;
+    }
+  
+    .lists {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+  
+    .list {
+      grid-template-columns: 1fr 5fr;
+    }
+  
+    .card {
+      margin-bottom: 40px;
+    }
+    iframe{
+      height: 300px;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .lists {
+      grid-template-columns: 1fr;
+    }
+  }
